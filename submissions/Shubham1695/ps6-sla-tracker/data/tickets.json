@@ -1,0 +1,72 @@
+{
+  "tickets": [
+    {
+      "id": "TCK-1001",
+      "priority": "P1",
+      "assignee_group": "L1-ServiceDesk",
+      "created_at": "2025-11-03T08:45:00",
+      "resolved_at": "2025-11-03T14:15:00",
+      "status_history": [
+        { "status": "OPEN", "at": "2025-11-03T08:45:00" },
+        { "status": "IN_PROGRESS", "at": "2025-11-03T09:10:00" },
+        { "status": "RESOLVED", "at": "2025-11-03T14:15:00" }
+      ]
+    },
+    {
+      "id": "TCK-1002",
+      "priority": "P2",
+      "assignee_group": "L2-Network",
+      "created_at": "2025-11-03T11:00:00",
+      "resolved_at": "2025-11-05T16:10:00",
+      "status_history": [
+        { "status": "OPEN", "at": "2025-11-03T11:00:00" },
+        { "status": "ON_HOLD", "at": "2025-11-03T14:00:00" },
+        { "status": "IN_PROGRESS", "at": "2025-11-04T09:30:00" },
+        { "status": "RESOLVED", "at": "2025-11-05T16:10:00" }
+      ]
+    },
+    {
+      "id": "TCK-1003",
+      "priority": "P3",
+      "assignee_group": "L2-Network",
+      "created_at": "2025-11-07T17:30:00",
+      "resolved_at": null,
+      "status_history": [
+        { "status": "OPEN", "at": "2025-11-07T17:30:00" },
+        { "status": "ON_HOLD", "at": "2025-11-10T09:00:00" }
+      ]
+    },
+    {
+      "id": "TCK-1004",
+      "priority": "P4",
+      "assignee_group": "L1-ServiceDesk",
+      "created_at": "2025-12-22T10:00:00",
+      "resolved_at": "2026-01-06T11:00:00",
+      "status_history": [
+        { "status": "OPEN", "at": "2025-12-22T10:00:00" },
+        { "status": "RESOLVED", "at": "2026-01-06T11:00:00" }
+      ]
+    },
+    {
+      "id": "TCK-1005",
+      "priority": "P1",
+      "assignee_group": "L3-Database",
+      "created_at": "2025-11-08T13:00:00",
+      "resolved_at": "2025-11-08T15:00:00",
+      "status_history": [
+        { "status": "OPEN", "at": "2025-11-08T13:00:00" }
+      ]
+    },
+    {
+      "id": "TCK-1006",
+      "priority": "P2",
+      "assignee_group": "L3-Database",
+      "created_at": "2025-11-04T09:00:00",
+      "resolved_at": "2025-11-04T18:30:00",
+      "status_history": [
+        { "status": "OPEN", "at": "2025-11-04T09:00:00" },
+        { "status": "RESOLVED", "at": "2025-11-04T18:30:00" }
+      ]
+    }
+  ]
+}
